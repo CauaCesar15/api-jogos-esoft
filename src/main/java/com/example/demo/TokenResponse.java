@@ -2,7 +2,7 @@ package com.example.demo;
 
 public class TokenResponse {
 
-    private String token;
+    private final String token;
 
     public TokenResponse(String token) {
         this.token = token;
